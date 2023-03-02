@@ -4,7 +4,7 @@ metadata:
   name: monitoring-stack
   namespace: monitor 
   annotations:
-    backstage.io/techdocs-ref: README.md
+    backstage.io/techdocs-ref: dir:.
   description: Helm package for monitoring and logging k8s workloads
   labels:
     component-type: monitor

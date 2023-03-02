@@ -1,0 +1,4 @@
+site_name: 'monitoring stack docs'
+
+nav:
+  - Home: "README.md"

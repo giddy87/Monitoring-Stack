@@ -7,9 +7,7 @@ metadata:
     backstage.io/techdocs-ref: https://github.com/giddy87/Monitoring-Stack/blob/initial/README.md
   description: Helm package for monitoring and logging k8s workloads
   labels:
-    component-type: monitor
-  tags:
-    - Helm 
+    component-type: monitor 
   links:
     - url: https://github.com/giddy87/Monitoring-Stack/blob/initial/README.md
       title: monitoring-stack docs

@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: monitoring-stack
+  namespace: Monitor 
+  description: Helm package for monitoring and logging k8s workloads
+  labels:
+    component-type: monitor
+  tags:
+    - java
+  links:
+    - url: https://github.com/giddy87/Monitoring-Stack/blob/initial/README.md
+      title: monitoring-stack docs
+      icon: github
+      type: Documentation
+spec:
+  type: service
+  lifecycle: experimental
+  owner: idahosagideon@gmail.com
+  system: Cloud-Native
+
+
+
+

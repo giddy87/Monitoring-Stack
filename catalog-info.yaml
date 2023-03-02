@@ -3,11 +3,13 @@ kind: Component
 metadata:
   name: monitoring-stack
   namespace: monitor 
+  annotations:
+    backstage.io/techdocs-ref: https://github.com/giddy87/Monitoring-Stack/blob/initial/README.md
   description: Helm package for monitoring and logging k8s workloads
   labels:
     component-type: monitor
   tags:
-    - java
+    - Helm 
   links:
     - url: https://github.com/giddy87/Monitoring-Stack/blob/initial/README.md
       title: monitoring-stack docs
